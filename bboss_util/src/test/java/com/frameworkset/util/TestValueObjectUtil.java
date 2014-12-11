@@ -66,13 +66,13 @@ public class TestValueObjectUtil extends TestCase
 		
 		interfaceTest = new AbstractTest();
 		
-		other = (Test) ValueObjectUtil.shell(Test.class, interfaceTest);
+		//other = (Test) ValueObjectUtil.shell(Test.class, interfaceTest);
 		
 		
 		
-		System.out.println(other);
-		other = (Test) test.cast(interfaceTest);
-		System.out.println(other);
+//		System.out.println(other);
+//		other = (Test) test.cast(interfaceTest);
+//		System.out.println(other);
 	}
 	
 	public void testTypeMatch()
