@@ -298,7 +298,7 @@ public class TestVaribleHandler
     {
     	String listRepositorySql = "select *  from CIM_ETL_REPOSITORY  where 1=1 " +
 		"#if($HOST_ID && !$HOST_ID.equals(\"\")) " +
-		"	and HOST_ID = #[host_id->bb[2]->bb[aa]]" +
+		"	and HOST_ID = #[bean->host_id->bb[1]]" +
 		"#end  " +
 		" and PLUGIN_ID in (#[PLUGIN_ID[0]], #[PLUGIN_ID[1]])" +
 		" and CATEGORY_ID = #[CATEGORY_ID] and APP = #[APP] ";
