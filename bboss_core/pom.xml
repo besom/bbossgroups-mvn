@@ -1,0 +1,38 @@
+<project xmlns="http://maven.apache.org/POM/4.0.0" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
+  <modelVersion>4.0.0</modelVersion>
+  <parent>
+    <groupId>bbossgroups</groupId>
+    <artifactId>bbossgroups</artifactId>
+    <version>1.0-SNAPSHOT</version>
+  </parent>
+  <artifactId>bboss_core</artifactId>
+  <name>bboss core</name>
+  <description>core</description>
+  <dependencies>
+  	<dependency>
+  		<groupId>bbossgroups</groupId>
+  		<artifactId>bboss_soa</artifactId>
+  		<version>1.0-SNAPSHOT</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>bbossgroups</groupId>
+  		<artifactId>bboss_util</artifactId>
+  		<version>1.0-SNAPSHOT</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.caucho</groupId>
+  		<artifactId>hessian</artifactId>
+  		<version>4.0.7</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>com.thoughtworks.xstream</groupId>
+  		<artifactId>xstream</artifactId>
+  		<version>1.3.1</version>
+  	</dependency>
+  	<dependency>
+  		<groupId>cglib</groupId>
+  		<artifactId>cglib-nodep</artifactId>
+  		<version>3.1</version>
+  	</dependency>
+  </dependencies>
+</project>
