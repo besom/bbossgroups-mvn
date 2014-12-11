@@ -50,5 +50,6 @@
 		<module>bboss_util</module>
 		<module>bboss_soa</module>
 		<module>bboss_core</module>
+		<module>bboss_persistent</module>
 	</modules>
 </project>

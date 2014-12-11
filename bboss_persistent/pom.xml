@@ -5,34 +5,29 @@
     <artifactId>bbossgroups</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
-  <artifactId>bboss_core</artifactId>
-  <name>bboss core</name>
-  <description>core</description>
+  <artifactId>bboss_persistent</artifactId>
+  <name>persistent</name>
+  <description>bboss persistent</description>
   <dependencies>
   	<dependency>
   		<groupId>bbossgroups</groupId>
-  		<artifactId>bboss_soa</artifactId>
+  		<artifactId>bboss_core</artifactId>
   		<version>1.0-SNAPSHOT</version>
   	</dependency>
   	<dependency>
-  		<groupId>bbossgroups</groupId>
-  		<artifactId>bboss_util</artifactId>
-  		<version>1.0-SNAPSHOT</version>
+  		<groupId>xjavadoc</groupId>
+  		<artifactId>xjavadoc</artifactId>
+  		<version>1.1</version>
   	</dependency>
   	<dependency>
-  		<groupId>com.caucho</groupId>
-  		<artifactId>hessian</artifactId>
-  		<version>4.0.7</version>
+  		<groupId>com.fasterxml.uuid</groupId>
+  		<artifactId>java-uuid-generator</artifactId>
+  		<version>3.1.2</version>
   	</dependency>
   	<dependency>
-  		<groupId>com.thoughtworks.xstream</groupId>
-  		<artifactId>xstream</artifactId>
-  		<version>1.3.1</version>
-  	</dependency>
-  	<dependency>
-  		<groupId>cglib</groupId>
-  		<artifactId>cglib-nodep</artifactId>
-  		<version>2.2</version>
+  		<groupId>com.oracle</groupId>
+  		<artifactId>ojdbc14</artifactId>
+  		<version>10.2.0.4.0</version>
   	</dependency>
   </dependencies>
 </project>
