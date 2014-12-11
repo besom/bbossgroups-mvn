@@ -48,5 +48,6 @@
 	<modules>
 		<module>bboss_velocity</module>
 		<module>bboss_util</module>
+		<module>bboss_soa</module>
 	</modules>
 </project>
