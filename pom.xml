@@ -51,5 +51,7 @@
 		<module>bboss_soa</module>
 		<module>bboss_core</module>
 		<module>bboss_persistent</module>
+		<module>bboss_taglib</module>
+		<module>bboss_security</module>
 	</modules>
 </project>
