@@ -54,5 +54,7 @@
 		<module>bboss_persistent</module>
 		<module>bboss_taglib</module>
 		<module>bboss_security</module>
+		<module>bboss_event</module>
+		<module>bboss_rpc</module>
 	</modules>
 </project>

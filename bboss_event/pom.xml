@@ -5,31 +5,25 @@
     <artifactId>bbossgroups</artifactId>
     <version>1.0-SNAPSHOT</version>
   </parent>
-  <artifactId>bboss_taglib</artifactId>
-  <name>taglib</name>
-  <description>bboss taglib</description>
+  <artifactId>bboss_event</artifactId>
+  <name>bbossevent</name>
+  <description>bbossevent</description>
   <dependencies>
   	<dependency>
   		<groupId>bbossgroups</groupId>
-  		<artifactId>bboss_security</artifactId>
+  		<artifactId>bboss_core</artifactId>
   		<version>1.0-SNAPSHOT</version>
   	</dependency>
+  	
   	<dependency>
-  		<groupId>commons-digester</groupId>
-  		<artifactId>commons-digester</artifactId>
-  		<version>1.5</version>
+  		<groupId>thirdparty.bboss</groupId>
+  		<artifactId>bboss-rpc</artifactId>
+  		<version>1.0</version>
   	</dependency>
   	<dependency>
   		<groupId>thirdparty</groupId>
-  		<artifactId>ecs</artifactId>
-  		<version>1.4.2</version>
+  		<artifactId>jug-asl</artifactId>
+  		<version>2.0.0</version>
   	</dependency>
-  	
-  	<dependency>
-  		<groupId>turbine</groupId>
-  		<artifactId>turbine</artifactId>
-  		<version>2.3.3</version>
-  	</dependency>
-  	
   </dependencies>
 </project>
