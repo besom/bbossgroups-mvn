@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?><project>
+  <modelVersion>4.0.0</modelVersion>
+  <groupId>turbine</groupId>
+  <artifactId>turbine</artifactId>
+  <name>turbine-2</name>
+  <version>2.3.3</version>
+  <description>Turbine is a servlet based framework that allows experienced Java
+    developers to quickly build secure web applications. Parts of Turbine
+    can also be used independently of the web portion of Turbine as
+    well. In other words, we strive to make portions of Turbine easily
+    available for use in other applications.</description>
+</project>
