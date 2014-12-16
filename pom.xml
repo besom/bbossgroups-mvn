@@ -58,5 +58,6 @@
 		<module>bboss_rpc</module>
 		<module>bboss_mvc</module>
 		<module>bboss_hession</module>
+		<module>bboss_schedule</module>
 	</modules>
 </project>
