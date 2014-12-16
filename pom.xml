@@ -56,5 +56,6 @@
 		<module>bboss_security</module>
 		<module>bboss_event</module>
 		<module>bboss_rpc</module>
+		<module>bboss_mvc</module>
 	</modules>
 </project>
