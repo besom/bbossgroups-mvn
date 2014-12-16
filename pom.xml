@@ -57,5 +57,6 @@
 		<module>bboss_event</module>
 		<module>bboss_rpc</module>
 		<module>bboss_mvc</module>
+		<module>bboss_hession</module>
 	</modules>
 </project>
